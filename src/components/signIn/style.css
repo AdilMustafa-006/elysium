@@ -4,6 +4,185 @@
   right: 1%;
   top: 1%;
   bottom: 1%;
-  /* Dark & Light/Light */
   background: #FFFFFF;
+}
+
+.signin-form-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+
+  position: absolute;
+  width: 324px;
+  height: 32px;
+  right: 32px;
+  top: 48px;
+}
+
+.have-account-text {
+  width: 152px;
+  height: 16px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.create-account-btn {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 12px;
+  gap: 8px;
+  width: 160px;
+  height: 32px;
+  background: #FFFFFF;
+  border: 1px solid #DADDE6;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  cursor: pointer;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+
+.signin-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  position: absolute;
+  width: 408px;
+  height: 272px;
+  left: 700px;
+  top: 80px;
+}
+
+.signin-title {
+  width: 250px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  color: #000117;
+
+}
+
+
+.signin-field-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 408px;
+  height: 92px;
+}
+
+.signin-field-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 408px;
+  margin-bottom: 15px;
+}
+
+.signin-field {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  padding: 5px;
+  width: 408px;
+  height: 40px;
+  background: #F6F8FC;
+  border: 1px solid #DADDE5;
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.signin-field-error {
+  position: absolute;
+  margin-top: 42px;
+  font-size: 14px;
+  margin-left: 5px;
+  color: red;
+}
+
+.remember-me-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin-top: 22px;
+  gap: 80px;
+  width: 408px;
+  flex: none;
+  order: 3;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.signin-checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+ 
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.forgot-pwd-btn {
+  width: 121px;
+  height: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.signin-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+  gap: 8px;
+  width: 408px;
+  height: 48px;
+  color: #FFFFFF;
+  background: #000117;
+  border-radius: 8px;
+  flex: none;
+  order: 4;
+  align-self: stretch;
+  flex-grow: 0;
 }
