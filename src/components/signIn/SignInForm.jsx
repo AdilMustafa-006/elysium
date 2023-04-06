@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import { useFormik } from "formik";
 import { signInSchema } from '../../utils/signinValidation'
 
@@ -26,8 +27,8 @@ function SignInForm() {
 
   return (
     <div>
+      <Form onSubmit={handleSubmit} className="signin-form-container">
       <h6 className='signin-title'> Sign in to Elysium</h6>
-      <Form onSubmit={handleSubmit}>
         
         <Form.Group className='signin-field-box'>
           <div className="signin-field-container">
@@ -77,9 +78,11 @@ function SignInForm() {
             checked={values.rememberMe}
             onChange={handleChange}
             />
-          <p className='forgot-pwd-btn'>
-            Forget password?
-          </p>
+          <Link to="/forgotpassword" className='have-account-link'>
+            <p className='forgot-pwd-btn'>
+              Forget password ?
+            </p>
+          </Link>
         </Form.Group>
         <Button variant="primary" className='signin-btn' type="submit">
           Sign In

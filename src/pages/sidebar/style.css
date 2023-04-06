@@ -1,7 +1,7 @@
 .sidenav-container {
   position: absolute;
   width: 440px;
-  height: 620px;
+  height: 680px;
   left: 0px;
   top: 0px;
   background: linear-gradient(134.86deg, #000117 25.06%, #0B0D34 82.21%);
@@ -9,12 +9,12 @@
 
 .sidenav-text {
   position: absolute;
-  width: 201px;
-  height: 20px;
+  /* width: 201px;
+  height: 20px; */
   left: 32px;
   top: 600px;
 
-  /* font-family: 'Ubuntu'; */
+  font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
