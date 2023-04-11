@@ -9,8 +9,16 @@
 } */
 
 body {
-  font-family: 'Ubuntu', sans-serif;
-  margin: 0px;
+  font-family: 'Ubuntu', sans-serif !important;
+  margin: 0 auto;
+}
+.img-holder {
+  width: 100%;
+  height: auto;
+}
+.sidebar-wrapper {
+  padding: 0 !important;
+  height: 100vh;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

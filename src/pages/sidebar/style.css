@@ -1,21 +1,12 @@
 .sidenav-container {
-  position: absolute;
-  width: 440px;
-  height: 680px;
-  left: 0px;
-  top: 0px;
+  height: 100%;
   background: linear-gradient(134.86deg, #000117 25.06%, #0B0D34 82.21%);
 }
 
 .sidenav-text {
   position: absolute;
-  /* width: 201px;
-  height: 20px; */
+  bottom: 1%;
   left: 32px;
-  top: 600px;
-
-  font-family: 'Ubuntu';
-  font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 20px;
@@ -24,9 +15,6 @@
 }
 
 .sidenav-image {
-  position: absolute;
   width: 200px;
-  height: 48px;
-  left: 32px;
-  top: 48px;
+  padding: 48px 0 0 32px;
 }

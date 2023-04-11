@@ -11,7 +11,7 @@ function SignIn() {
     <div className='signin-container'>
       <Container fluid>
         <Row>
-          <Col sm={12} md={4} lg={3}>
+          <Col sm={12} md={4} lg={3} className='sidebar-wrapper'>
             <Sidebar />
           </Col>
           <Col sm={12} md={8} lg={9}>

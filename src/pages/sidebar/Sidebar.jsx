@@ -1,14 +1,14 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap';
 import "./style.css"
 import logo from '../../assets/images/logo.png'
-
 
 function Sidebar() {
   return (
     <div className='sidenav-container'>
-      <img className='sidenav-image' src={logo} alt='elysium img' />
-      <span className='sidenav-text'> © {new Date().getFullYear()}{" "} Elysium. All rights reserved.</span>
+      <div className='sidenav-image'>
+        <img className='img-holder' src={logo} alt='elysium img' />
+      </div>
+      <div className='sidenav-text'> © {new Date().getFullYear()}{" "} Elysium. All rights reserved.</div>
     </div>
   )
 }
