@@ -3,6 +3,7 @@ import { Form, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { useFormik } from "formik";
 import { signInSchema } from '../../utils/signinValidation'
+import { SC } from '../../services/signIn'
 
 
 function SignInForm() {
@@ -20,7 +21,8 @@ function SignInForm() {
       validateOnChange: true,
       validateOnBlur: false,
       onSubmit: (values, action) => {
-        console.log('values', values)
+        // SC.signIn(values)
+        // console.log('values', values)
         action.resetForm();
       },
     });

@@ -24,7 +24,7 @@
 .have-account-text {
   width: 152px;
   height: 16px;
-  margin-top: 15px;
+  margin-top: 25px;
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 400;
@@ -59,6 +59,8 @@
 }
 .have-account-link {
   text-decoration: none;
+  margin-top: 8px;
+  margin-bottom: -4px;
 }
 
 .signin-form-container {
@@ -154,6 +156,7 @@
   flex-direction: row;
   font-family: 'Ubuntu';
   font-style: normal;
+  font-size: 15px;
   align-items: flex-start;
   padding: 0px;
   gap: 8px;
