@@ -1,0 +1,20 @@
+.forgot-pwd-card {
+  width: 50%;
+  border: none !important;
+}
+
+.forgot-pwd-title {
+  font-weight: 500;
+}
+
+.send-code-btn {
+  width: 100%;
+  height: 40px;
+  background: #000117;
+  border-radius: 8px;
+}
+
+.forgot-password-field-error {
+  font-size: 14px;
+  color: red;
+}

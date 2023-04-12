@@ -5,6 +5,8 @@ import { CiCircleCheck, CiCircleRemove } from 'react-icons/ci';
 
 import { useFormik } from "formik";
 import { signUpSchema } from '../../utils/signUpValidation'
+import { SC } from '../../services/signUp'
+
 
 
 function SignUpForm() {
@@ -35,6 +37,7 @@ function SignUpForm() {
   
       onSubmit: (values, action) => {
         // console.log('values', values)
+        SC.signUp(values)
         action.resetForm();
         setShowPassword(false)
       },
